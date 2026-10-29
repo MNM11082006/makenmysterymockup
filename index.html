@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Macken Mistry Primary School | Sea Cow Lake, Durban</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            800: '#0f2438',
+                            900: '#0a1826',
+                            DEFAULT: '#0f2942',
+                        },
+                        amber: {
+                            DEFAULT: '#f59e0b',
+                            600: '#d97706',
+                            700: '#b45309',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Lightweight custom styles for optimum rendering */
+        body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+        .tap-target { min-height: 48px; min-width: 48px; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-amber selection:text-navy-900">
+
+    <!-- 1. TOP ANNOUNCEMENT BAR -->
+    <div class="bg-navy-900 text-slate-200 text-xs sm:text-sm py-2 px-3 border-b border-navy-800">
+        <div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4 flex-wrap justify-center sm:justify-start">
+                <a href="tel:+27315771072" class="flex items-center gap-1.5 hover:text-amber transition-colors font-medium">
+                    <svg class="w-4 h-4 text-amber" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                    <span>+27 31 577 1072</span>
+                </a>
+                <span class="hidden sm:inline text-slate-600">|</span>
+                <span class="flex items-center gap-1.5 text-slate-300">
+                    <svg class="w-4 h-4 text-amber" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                    <span>87 Macken Mistry Rd, Sea Cow Lake, Durban</span>
+                </span>
+            </div>
+            <div>
+                <a href="https://wa.me/27315771072?text=Hello%20Dr.%20Macken%20Mistry%20Primary%20School,%20I%20have%20an%20enquiry." target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white px-2.5 py-1 rounded text-xs font-semibold transition-colors">
+                    <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.572-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                    <span>WhatsApp Quick Enquiries</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. HEADER & NAVIGATION -->
+    <header class="bg-navy sticky top-0 z-40 shadow-lg border-b border-navy-800">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+            <!-- Brand / Logo Placeholder -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-lg bg-amber flex items-center justify-center font-black text-navy-900 text-xl shadow-md group-hover:bg-amber-600 transition-colors">
+                    DMM
+                </div>
+                <div>
+                    <span class="block font-bold text-white text-base sm:text-lg leading-tight">Dr. Macken Mistry</span>
+                    <span class="block text-xs text-amber-400 font-medium tracking-wide">Primary School</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-200">
+                <a href="#about" class="hover:text-amber transition-colors">About</a>
+                <a href="#admissions" class="hover:text-amber transition-colors">Admissions</a>
+                <a href="#facilities" class="hover:text-amber transition-colors">Facilities & Partners</a>
+                <a href="#notices" class="hover:text-amber transition-colors">Notices</a>
+                <a href="#contact" class="hover:text-amber transition-colors">Contact</a>
+                <a href="#admissions" class="bg-amber hover:bg-amber-600 text-navy-900 font-bold px-4 py-2 rounded-lg transition-colors shadow-sm">
+                    Apply Now
+                </a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="md:hidden tap-target p-2 text-slate-200 hover:text-amber focus:outline-none" aria-label="Toggle Navigation Menu">
+                <svg id="menuIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+                <svg id="closeIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+        </div>
+
+        <!-- Mobile Nav Menu Drawer -->
+        <div id="mobileMenu" class="hidden md:hidden bg-navy-900 border-b border-navy-800 px-4 pt-2 pb-6 space-y-3">
+            <a href="#about" onclick="toggleMobileMenu()" class="block py-2 text-slate-200 hover:text-amber font-medium border-b border-navy-800">About Us</a>
+            <a href="#admissions" onclick="toggleMobileMenu()" class="block py-2 text-slate-200 hover:text-amber font-medium border-b border-navy-800">Admissions & Registration</a>
+            <a href="#facilities" onclick="toggleMobileMenu()" class="block py-2 text-slate-200 hover:text-amber font-medium border-b border-navy-800">Facilities & Corporate Partners</a>
+            <a href="#notices" onclick="toggleMobileMenu()" class="block py-2 text-slate-200 hover:text-amber font-medium border-b border-navy-800">Notices & Calendar</a>
+            <a href="#contact" onclick="toggleMobileMenu()" class="block py-2 text-slate-200 hover:text-amber font-medium border-b border-navy-800">Contact Us</a>
+            <a href="#admissions" onclick="toggleMobileMenu()" class="block w-full text-center bg-amber text-navy-900 font-bold py-3 rounded-lg shadow mt-4">
+                Apply for Enrolment
+            </a>
+        </div>
+    </header>
+
+    <!-- 3. HERO SECTION -->
+    <section class="relative bg-navy text-white pt-10 pb-16 md:pt-16 md:pb-24 overflow-hidden">
+        <!-- SVG Geometric Background Pattern -->
+        <div class="absolute inset-0 opacity-10 pointer-events-none">
+            <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0,0 L100,0 L100,100 Z" fill="#f59e0b" />
+            </svg>
+        </div>
+
+        <div class="max-w-6xl mx-auto px-4 relative z-10">
+            <div class="max-w-3xl">
+                <span class="inline-block bg-navy-800 text-amber font-semibold text-xs md:text-sm px-3.5 py-1.5 rounded-full border border-amber/30 mb-4">
+                    📍 Sea Cow Lake &bull; Hippo Area, Durban
+                </span>
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-white leading-tight mb-4">
+                    Empowering Future Leaders in <span class="text-amber">Sea Cow Lake, Durban</span>
+                </h1>
+                <p class="text-slate-300 text-base md:text-lg mb-8 leading-relaxed">
+                    Providing high-quality, accessible public primary education. We foster academic excellence, strong values, and holistic development in a safe and supportive learning environment.
+                </p>
+
+                <!-- Dual Action CTAs -->
+                <div class="flex flex-col sm:flex-row gap-3 sm:gap-4">
+                    <a href="#admissions" class="inline-flex justify-center items-center gap-2 bg-amber hover:bg-amber-600 text-navy-900 font-bold px-6 py-3.5 rounded-xl transition-all transform hover:-translate-y-0.5 shadow-lg tap-target">
+                        <span>Apply for Enrolment</span>
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                    </a>
+                    <a href="#facilities" class="inline-flex justify-center items-center gap-2 bg-slate-800 hover:bg-slate-700 text-white border border-slate-600 font-semibold px-6 py-3.5 rounded-xl transition-all tap-target">
+                        <svg class="w-5 h-5 text-amber" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+                        <span>Sponsor & Partner With Us</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. TRUST & HIGHLIGHTS BAR -->
+    <section class="bg-amber-600 text-navy-900 py-6 border-y border-amber-700 shadow-inner">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="flex items-center gap-4 bg-amber-500/30 p-3 rounded-lg md:bg-transparent md:p-0">
+                <div class="p-3 bg-navy text-amber rounded-full shrink-0">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0112 20.055a11.952 11.952 0 01-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>
+                </div>
+                <div>
+                    <h3 class="font-extrabold text-navy-900 text-base leading-tight">Decades of Excellence</h3>
+                    <p class="text-xs text-navy-950 font-medium">Trusted community institution providing quality foundations.</p>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-4 bg-amber-500/30 p-3 rounded-lg md:bg-transparent md:p-0">
+                <div class="p-3 bg-navy text-amber rounded-full shrink-0">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                </div>
+                <div>
+                    <h3 class="font-extrabold text-navy-900 text-base leading-tight">Safe & Nurturing</h3>
+                    <p class="text-xs text-navy-950 font-medium">Disciplined, secure surroundings built for learner growth.</p>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-4 bg-amber-500/30 p-3 rounded-lg md:bg-transparent md:p-0">
+                <div class="p-3 bg-navy text-amber rounded-full shrink-0">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.684a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                </div>
+                <div>
+                    <h3 class="font-extrabold text-navy-900 text-base leading-tight">Community Partnered</h3>
+                    <p class="text-xs text-navy-950 font-medium">Proud relief & upliftment initiatives with Gift of the Givers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. SCHOOL STORY & PRINCIPAL'S WELCOME -->
+    <section id="about" class="py-12 md:py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-12 gap-8 items-center">
+                <!-- Visual / Badge Graphic -->
+                <div class="md:col-span-5 bg-slate-100 p-6 rounded-2xl border border-slate-200 text-center relative">
+                    <div class="w-24 h-24 bg-navy text-amber rounded-full flex items-center justify-center mx-auto mb-4 shadow-md font-bold text-2xl">
+                        DMM
+                    </div>
+                    <h3 class="font-bold text-navy text-lg">Dr. Macken Mistry Primary</h3>
+                    <p class="text-xs text-slate-500 mb-4">Sea Cow Lake, Durban</p>
+                    <div class="bg-amber-50 border border-amber-200 text-amber-800 text-xs font-semibold p-3 rounded-lg">
+                        "Educating hearts and minds for a brighter tomorrow."
+                    </div>
+                </div>
+
+                <!-- Text Content -->
+                <div class="md:col-span-7">
+                    <span class="text-amber-600 font-bold text-xs uppercase tracking-wider block mb-1">Principal's Welcome</span>
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-navy mb-4">Welcome to Our School Family</h2>
+                    <div class="prose prose-slate text-slate-600 text-sm md:text-base leading-relaxed space-y-3">
+                        <p>
+                            Welcome to Dr. Macken Mistry Primary School. Located at the heart of the Sea Cow Lake community, our dedicated educators work tirelessly to cultivate a safe, inclusive, and academically vibrant environment for every child.
+                        </p>
+                        <p>
+                            We focus on holistic development—combining foundational curriculum strengths with strong ethical values, sports, and community engagement. Through invaluable partnerships with organizations like <strong>Gift of the Givers</strong>, we continuously improve our infrastructure and learner support. We invite parents and partners to join us in shaping the leaders of tomorrow.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. ADMISSIONS & REGISTRATION GUIDE -->
+    <section id="admissions" class="py-12 md:py-16 bg-slate-100 border-y border-slate-200">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-10">
+                <span class="text-amber-600 font-bold text-xs uppercase tracking-wider block mb-1">Enrollment Process</span>
+                <h2 class="text-2xl md:text-3xl font-extrabold text-navy">3 Simple Steps to Register Your Child</h2>
+                <p class="text-slate-600 text-sm mt-2">Follow these straightforward steps to secure your child’s placement for the upcoming academic year.</p>
+            </div>
+
+            <!-- 3 Step Cards -->
+            <div class="grid md:grid-cols-3 gap-6 mb-10">
+                <!-- Step 1 -->
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm relative">
+                    <span class="w-8 h-8 bg-amber text-navy-900 rounded-full flex items-center justify-center font-bold text-sm mb-4">1</span>
+                    <h3 class="font-bold text-navy text-lg mb-2">Prepare Documents</h3>
+                    <ul class="text-xs text-slate-600 space-y-1.5 list-disc list-inside">
+                        <li>Child's Birth Certificate</li>
+                        <li>Parent / Guardian ID Document</li>
+                        <li>Latest School Report Card</li>
+                        <li>Clinic Card / Immunization Record</li>
+                        <li>Proof of Residence</li>
+                    </ul>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm relative">
+                    <span class="w-8 h-8 bg-navy text-amber rounded-full flex items-center justify-center font-bold text-sm mb-4">2</span>
+                    <h3 class="font-bold text-navy text-lg mb-2">Collect or Download Form</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed mb-3">
+                        Obtain an official registration form directly from the school administration office or request a copy digitally via WhatsApp.
+                    </p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm relative">
+                    <span class="w-8 h-8 bg-amber text-navy-900 rounded-full flex items-center justify-center font-bold text-sm mb-4">3</span>
+                    <h3 class="font-bold text-navy text-lg mb-2">Submit at School Admin</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        Visit our admissions desk at 87 Macken Mistry Road during operating hours (Mon–Fri, 07:30–14:30) to submit forms and complete registration.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Download / Action Callout -->
+            <div class="bg-navy text-white p-6 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 shadow-md">
+                <div>
+                    <h3 class="font-bold text-base md:text-lg">Need help with registration?</h3>
+                    <p class="text-xs text-slate-300">Contact our admin office directly via WhatsApp or phone call for support.</p>
+                </div>
+                <div class="flex flex-wrap gap-2 w-full sm:w-auto">
+                    <button onclick="openFormModal()" class="w-full sm:w-auto text-center bg-amber hover:bg-amber-600 text-navy-900 font-bold px-5 py-2.5 rounded-lg text-sm transition-colors tap-target">
+                        Request Form Info
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. FACILITIES & SPONSOR SHOWCASE -->
+    <section id="facilities" class="py-12 md:py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="max-w-2xl mb-10">
+                <span class="text-amber-600 font-bold text-xs uppercase tracking-wider block mb-1">Infrastructure & Community</span>
+                <h2 class="text-2xl md:text-3xl font-extrabold text-navy">School Facilities & Development Projects</h2>
+                <p class="text-slate-600 text-sm mt-2">We welcome corporate sponsors, CSI partners, and donors to assist in expanding and maintaining vital facilities for our learners.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Facility Item 1 -->
+                <div class="border border-slate-200 rounded-xl p-5 hover:border-amber transition-colors bg-slate-50">
+                    <div class="w-10 h-10 bg-navy/10 text-navy rounded-lg flex items-center justify-center mb-3">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                    </div>
+                    <span class="inline-block bg-emerald-100 text-emerald-800 text-[10px] font-bold px-2 py-0.5 rounded mb-2">Active Development</span>
+                    <h3 class="font-bold text-navy text-base">ICT & Digital Media Centre</h3>
+                    <p class="text-xs text-slate-600 mt-1 leading-relaxed">
+                        Upgrading computer hardware and internet connectivity to ensure all learners achieve digital literacy.
+                    </p>
+                </div>
+
+                <!-- Facility Item 2 -->
+                <div class="border border-slate-200 rounded-xl p-5 hover:border-amber transition-colors bg-slate-50">
+                    <div class="w-10 h-10 bg-navy/10 text-navy rounded-lg flex items-center justify-center mb-3">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+                    </div>
+                    <span class="inline-block bg-blue-100 text-blue-800 text-[10px] font-bold px-2 py-0.5 rounded mb-2">Relief Supported</span>
+                    <h3 class="font-bold text-navy text-base">Clean Water Security</h3>
+                    <p class="text-xs text-slate-600 mt-1 leading-relaxed">
+                        Partnered relief initiatives providing reliable borehole water storage for school health and sanitation.
+                    </p>
+                </div>
+
+                <!-- Facility Item 3 -->
+                <div class="border border-slate-200 rounded-xl p-5 hover:border-amber transition-colors bg-slate-50">
+                    <div class="w-10 h-10 bg-navy/10 text-navy rounded-lg flex items-center justify-center mb-3">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    </div>
+                    <span class="inline-block bg-amber-100 text-amber-800 text-[10px] font-bold px-2 py-0.5 rounded mb-2">Sponsorship Opportunity</span>
+                    <h3 class="font-bold text-navy text-base">Sports & Grounds Upgrades</h3>
+                    <p class="text-xs text-slate-600 mt-1 leading-relaxed">
+                        Seeking corporate support for sports field maintenance and soccer/netball training equipment.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Sponsor Banner -->
+            <div class="mt-8 p-6 bg-slate-900 text-white rounded-2xl flex flex-col md:flex-row items-center justify-between gap-6">
+                <div>
+                    <h3 class="text-lg font-bold text-amber">Become a Corporate Sponsor</h3>
+                    <p class="text-xs text-slate-300 mt-1 max-w-xl">
+                        Invest in Sea Cow Lake youth. All contributions directly support educational tools, infrastructure resilience, and learner nutrition programs.
+                    </p>
+                </div>
+                <button onclick="openDonorModal()" class="shrink-0 bg-amber hover:bg-amber-600 text-navy-900 font-bold px-5 py-3 rounded-xl text-sm transition-colors tap-target">
+                    Partner With Our School
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. INTEGRATED ANNOUNCEMENTS & SOCIAL FEED -->
+    <section id="notices" class="py-12 md:py-16 bg-slate-100 border-t border-slate-200">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid lg:grid-cols-12 gap-8">
+                <!-- School Notice Board -->
+                <div class="lg:col-span-7">
+                    <div class="flex items-center justify-between mb-6">
+                        <div>
+                            <span class="text-amber-600 font-bold text-xs uppercase tracking-wider block">Parent Communications</span>
+                            <h2 class="text-2xl font-extrabold text-navy">School Notice Board</h2>
+                        </div>
+                        <span class="bg-red-100 text-red-800 text-xs font-bold px-2.5 py-1 rounded-full">Term Updates</span>
+                    </div>
+
+                    <div class="space-y-4">
+                        <!-- Notice Item 1 -->
+                        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                            <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                                <span class="font-semibold text-amber-700">Admissions Desk</span>
+                                <span>Recent Notice</span>
+                            </div>
+                            <h3 class="font-bold text-navy text-sm">Grade R & Grade 1 Registration Open</h3>
+                            <p class="text-xs text-slate-600 mt-1">
+                                Parents are encouraged to submit enrollment documents early. Please bring original birth certificates and proof of address.
+                            </p>
+                        </div>
+
+                        <!-- Notice Item 2 -->
+                        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                            <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                                <span class="font-semibold text-navy">SGB & Parents Meeting</span>
+                                <span>Upcoming Event</span>
+                            </div>
+                            <h3 class="font-bold text-navy text-sm">Term Parent-Teacher Consultation</h3>
+                            <p class="text-xs text-slate-600 mt-1">
+                                Join us to discuss learner progress, term academic reports, and school developments.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Links & Community Presence -->
+                <div class="lg:col-span-5">
+                    <span class="text-amber-600 font-bold text-xs uppercase tracking-wider block mb-1">Connect Online</span>
+                    <h2 class="text-2xl font-extrabold text-navy mb-6">Social & Community</h2>
+
+                    <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-4">
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Stay updated with our latest activities, community projects, and school events on public platforms.
+                        </p>
+
+                        <!-- Instagram Button -->
+                        <a href="https://www.instagram.com/explore/locations/873168467/dr-macken-mistry-primary-school/" target="_blank" rel="noopener" class="flex items-center justify-between p-3 rounded-lg border border-slate-200 hover:border-pink-500 hover:bg-pink-50/30 transition-all group tap-target">
+                            <div class="flex items-center gap-3">
+                                <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-amber-500 via-rose-500 to-purple-600 text-white flex items-center justify-center">
+                                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                                </div>
+                                <div class="text-left">
+                                    <span class="block font-bold text-slate-800 text-xs">Instagram Community Tag</span>
+                                    <span class="block text-[11px] text-slate-500">View tagged photos & activities</span>
+                                </div>
+                            </div>
+                            <svg class="w-4 h-4 text-slate-400 group-hover:text-pink-500 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                        </a>
+
+                        <!-- Google Maps Profile Link -->
+                        <a href="https://maps.google.com/?q=Dr+Macken+Mistry+Primary+School+Durban" target="_blank" rel="noopener" class="flex items-center justify-between p-3 rounded-lg border border-slate-200 hover:border-blue-500 hover:bg-blue-50/30 transition-all group tap-target">
+                            <div class="flex items-center gap-3">
+                                <div class="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                                </div>
+                                <div class="text-left">
+                                    <span class="block font-bold text-slate-800 text-xs">Google Business Profile</span>
+                                    <span class="block text-[11px] text-slate-500">Directions & Reviews</span>
+                                </div>
+                            </div>
+                            <svg class="w-4 h-4 text-slate-400 group-hover:text-blue-500 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. FOOTER -->
+    <footer id="contact" class="bg-navy-900 text-slate-300 pt-12 pb-8 border-t border-navy-800">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
+                <!-- Col 1: Identity -->
+                <div>
+                    <div class="flex items-center gap-2 mb-3">
+                        <div class="w-8 h-8 rounded bg-amber text-navy-900 flex items-center justify-center font-bold">DMM</div>
+                        <span class="font-bold text-white text-base">Dr. Macken Mistry</span>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-4">
+                        A dedicated public primary school in Sea Cow Lake, Durban, providing holistic and accessible primary education.
+                    </p>
+                </div>
+
+                <!-- Col 2: Contact Info -->
+                <div>
+                    <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-3">Contact Us</h4>
+                    <ul class="text-xs space-y-2 text-slate-400">
+                        <li class="flex items-start gap-2">
+                            <svg class="w-4 h-4 text-amber shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                            <a href="tel:+27315771072" class="hover:text-amber transition-colors">+27 31 577 1072</a>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <svg class="w-4 h-4 text-amber shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                            <span>87 Macken Mistry Road, Sea Cow Lake / Hippo Area, Durban, KwaZulu-Natal, 4037</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Hours -->
+                <div>
+                    <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-3">School Hours</h4>
+                    <ul class="text-xs space-y-1.5 text-slate-400">
+                        <li><strong class="text-slate-200">Monday - Thursday:</strong> 07:30 - 14:30</li>
+                        <li><strong class="text-slate-200">Friday:</strong> 07:30 - 13:00</li>
+                        <li><strong class="text-slate-200">Weekends & Holidays:</strong> Closed</li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Quick Navigation -->
+                <div>
+                    <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-3">Directions</h4>
+                    <a href="https://maps.google.com/?q=87+Macken+Mistry+Road+Sea+Cow+Lake+Durban" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-navy-800 hover:bg-slate-800 text-amber border border-amber/20 text-xs font-semibold px-4 py-2.5 rounded-lg transition-colors w-full justify-center tap-target">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+                        <span>Open in Google Maps</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="border-t border-navy-800 pt-6 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-3">
+                <p>&copy; <script>document.write(new Date().getFullYear())</script> Dr. Macken Mistry Primary School. All rights reserved.</p>
+                <p>Designed for High Speed & Low Data Connections.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE MODAL FOR ENROLMENT SUPPORT -->
+    <div id="formModal" class="fixed inset-0 bg-slate-900/80 z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 relative text-slate-800 shadow-2xl">
+            <button onclick="closeFormModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 tap-target p-1">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+            <h3 class="text-xl font-bold text-navy mb-2">Registration Information</h3>
+            <p class="text-xs text-slate-600 mb-4">Leave your details and our admin office will contact you regarding registration documents.</p>
+            
+            <form onsubmit="handleFormSubmit(event)" class="space-y-3">
+                <div>
+                    <label class="block text-xs font-semibold text-slate-700 mb-1">Parent / Guardian Name</label>
+                    <input type="text" required placeholder="e.g. Sipho Ndlovu" class="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:border-navy">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-700 mb-1">Contact Phone / WhatsApp</label>
+                    <input type="tel" required placeholder="e.g. 082 123 4567" class="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:border-navy">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-700 mb-1">Grade Applying For</label>
+                    <select class="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:border-navy">
+                        <option>Grade R</option>
+                        <option>Grade 1</option>
+                        <option>Grade 2 - 7 Transfer</option>
+                    </select>
+                </div>
+                <button type="submit" class="w-full bg-amber hover:bg-amber-600 text-navy-900 font-bold py-2.5 rounded-lg text-sm transition-colors mt-2">
+                    Submit Enquiry
+                </button>
+            </form>
+            <div id="formSuccess" class="hidden text-center text-emerald-700 text-xs font-semibold mt-3 p-2 bg-emerald-50 rounded">
+                Thank you! Our admin desk will contact you shortly.
+            </div>
+        </div>
+    </div>
+
+    <!-- INTERACTIVE MODAL FOR DONOR / SPONSOR INQUIRIES -->
+    <div id="donorModal" class="fixed inset-0 bg-slate-900/80 z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 relative text-slate-800 shadow-2xl">
+            <button onclick="closeDonorModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 tap-target p-1">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+            <h3 class="text-xl font-bold text-navy mb-2">Corporate & Partner Support</h3>
+            <p class="text-xs text-slate-600 mb-4">Partner with Dr. Macken Mistry Primary to enhance facilities and learner welfare.</p>
+            
+            <form onsubmit="handleDonorSubmit(event)" class="space-y-3">
+                <div>
+                    <label class="block text-xs font-semibold text-slate-700 mb-1">Company / Organization Name</label>
+                    <input type="text" required placeholder="e.g. Acme Corp / Foundation" class="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:border-navy">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-700 mb-1">Email / Phone</label>
+                    <input type="text" required placeholder="e.g. contact@company.co.za" class="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:border-navy">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-700 mb-1">Area of Interest</label>
+                    <select class="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:border-navy">
+                        <option>ICT / Computer Lab Upgrades</option>
+                        <option>Water & Sanitation Infrastructure</option>
+                        <option>Sports Equipment & Uniforms</option>
+                        <option>General School Support / Relief</option>
+                    </select>
+                </div>
+                <button type="submit" class="w-full bg-navy hover:bg-navy-900 text-amber font-bold py-2.5 rounded-lg text-sm transition-colors mt-2">
+                    Send Sponsorship Inquiry
+                </button>
+            </form>
+            <div id="donorSuccess" class="hidden text-center text-emerald-700 text-xs font-semibold mt-3 p-2 bg-emerald-50 rounded">
+                Thank you for your interest! Our SGB & Principal will get back to you.
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT FOR INTERACTION & LOW DATA SLIM FUNCTIONALITY -->
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            const menuIcon = document.getElementById('menuIcon');
+            const closeIcon = document.getElementById('closeIcon');
+            
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+                menuIcon.classList.add('hidden');
+                closeIcon.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+                menuIcon.classList.remove('hidden');
+                closeIcon.classList.add('hidden');
+            }
+        }
+
+        function openFormModal() {
+            document.getElementById('formModal').classList.remove('hidden');
+        }
+
+        function closeFormModal() {
+            document.getElementById('formModal').classList.add('hidden');
+            document.getElementById('formSuccess').classList.add('hidden');
+        }
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            document.getElementById('formSuccess').classList.remove('hidden');
+            setTimeout(() => {
+                closeFormModal();
+            }, 2500);
+        }
+
+        function openDonorModal() {
+            document.getElementById('donorModal').classList.remove('hidden');
+        }
+
+        function closeDonorModal() {
+            document.getElementById('donorModal').classList.add('hidden');
+            document.getElementById('donorSuccess').classList.add('hidden');
+        }
+
+        function handleDonorSubmit(e) {
+            e.preventDefault();
+            document.getElementById('donorSuccess').classList.remove('hidden');
+            setTimeout(() => {
+                closeDonorModal();
+            }, 2500);
+        }
+    </script>
+</body>
+</html>
